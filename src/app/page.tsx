@@ -17,7 +17,7 @@ interface Player {
   name: string;
   score: number;
 }
-
+// This is main component /
 export default function Home() {
   const [players, setPlayers] = useState<Player[]>([]);
   const [playerName, setPlayerName] = useState<string>("");
