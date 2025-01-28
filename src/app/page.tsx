@@ -36,7 +36,8 @@ const zodiacAvatars = [
 ];
 
 // Variable to hold the background image link
-const backgroundImageURL = "https://nguyencongpc.vn/media/news/2612_hinh-nen-tet-2025-3.jpg"; 
+const backgroundImageURL =
+  "https://nguyencongpc.vn/media/news/2612_hinh-nen-tet-2025-3.jpg";
 
 export default function Home() {
   const [players, setPlayers] = useState<Player[]>([]);
@@ -130,12 +131,12 @@ export default function Home() {
           gutterBottom
           style={{
             textAlign: "center",
-            color: "#d32f2f",
+            color: "#ffd700", // Màu vàng
             fontWeight: "bold",
             textShadow: "2px 2px 4px #000",
           }}
         >
-          CHÀO MỪNG ĐẾN SÒNG BÀI TẾT!
+          XÌ LÁC THỦ ĐÔ VÙNG NHƠN
         </Typography>
 
         <Grid container spacing={2} alignItems="center" marginBottom={1}>
